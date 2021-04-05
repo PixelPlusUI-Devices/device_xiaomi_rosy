@@ -27,6 +27,17 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5
 PRODUCT_MANUFACTURER := Xiaomi
 
+TARGET_FACE_UNLOCK_SUPPORTED = true
+CUSTOM_BUILD_TYPE=OFFICIAL
+
+# PixelPlusUI Ofiicial
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ppui.device_name=Redmi 5 \
+ro.ppui.version=3.3 \
+ro.ppui.version_code=Tanzanite \
+ro.ppui.is_official=true \
+ro.ppui.maintainer_name=Ebin
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_BOOTANIMATION_HALF_RES := true
