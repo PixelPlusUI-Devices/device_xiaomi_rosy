@@ -41,3 +41,6 @@
 
 # Thermal
 /vendor/bin/hw/android.hardware.thermal@2.0-service.qti      u:object_r:hal_thermal_default_exec:s0
+
+# Smart Charging
+/sys/class/power_supply/battery/input_suspend    u:object_r:sysfs_battery_supply:s0

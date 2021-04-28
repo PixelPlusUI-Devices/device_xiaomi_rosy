@@ -6,6 +6,7 @@ allow qti_init_shell proc_boot_reason:file { open read };
 allow qti_init_shell proc_swap:file rw_file_perms;
 allow qti_init_shell proc_touchpanel:dir { r_dir_perms setattr };
 allow qti_init_shell proc_touchpanel:file { getattr setattr };
+allow qti_init_shell sysfs_corecontrol:file { write };
 
 # Required for FM
 allow qti_init_shell self:socket create;
