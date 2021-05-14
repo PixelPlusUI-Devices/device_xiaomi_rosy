@@ -27,6 +27,3 @@ genfscon sysfs /devices/soc/qpnp-rtc-8/rtc                  u:object_r:sysfs_rtc
 
 # Touchscreen
 genfscon proc /touchpanel	u:object_r:proc_touchpanel:s0
-
-#Smart Charging
-genfscon sysfs /sys/class/power_supply/battery/input_suspend    u:object_r:sysfs_battery_supply:s0

@@ -21,6 +21,3 @@ allow init {
 }:file setattr;
 
 allow init vendor_default_prop:property_service set;
-
-# Smart charging
-allow init sysfs_battery_supply:file { setattr };
